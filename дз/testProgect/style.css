@@ -1,0 +1,62 @@
+body {
+    font-family: Manrope;
+    background-color: rgb(191, 250, 202);
+}
+
+#testing {
+    margin: 100px auto auto auto;
+    background-color: rgb(139, 199, 127);
+    max-width: 900px;
+    border-radius: 40px;
+    padding: 50px;
+}
+
+h1 {
+    font-size: 60px;
+    color: rgb(5, 16, 42);
+    text-align: center;
+    font-weight: 500;
+}
+
+
+#startTest {
+    background-color: rgb(76, 172, 98);
+    cursor: pointer;
+    font-size: 30px;
+    padding: 20px 30px;
+    border: none;
+    border-radius: 30px;
+    display: block;
+    margin-inline: auto;
+}
+
+
+#numberQuestion {
+    display: none;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+#question {
+    font-size: 20px;
+}
+
+#answerOptions {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#nextQuestion {
+    cursor: pointer;
+    font-size: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 30px;
+    display: none;
+    margin-top: 20px;
+}
+
+
